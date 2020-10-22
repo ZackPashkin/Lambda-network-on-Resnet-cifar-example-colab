@@ -1,6 +1,6 @@
 # Lambda-network-on-Resnet-cifar-example-colab
 
-Author applied lambda layer to bottleneck
+Author applied lambda layer to Resnet bottleneck part
 
 + Add comparison with default resnet18
 
