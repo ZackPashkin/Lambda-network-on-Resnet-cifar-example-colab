@@ -27,10 +27,6 @@ einsum explained here: https://www.youtube.com/watch?v=pkVwUVEHmfI
 
 Some observations:
 
-Training a very slow for now (on v100 in colab) 
-
-Val loss is exploiding
-
 Network summary comparison with vanilla ResNet18.Input size 3,224,224:
 
 LambdaResnet18:
