@@ -26,3 +26,27 @@ einsum explained here: https://www.youtube.com/watch?v=pkVwUVEHmfI
 Some observations:
 Training a very slow for now (on v100 in colab) 
 Val loss is exploiding
+Network summary comparison with vanilla ResNet18.Input size 3,224,224:
+LambdaResnet18:
+================================================================
+Total params: 8,054,538
+Trainable params: 8,054,538
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 247.53
+Params size (MB): 30.73
+Estimated Total Size (MB): 278.83
+----------------------------------------------------------------
+
+Vanilla Resnet18
+================================================================
+Total params: 11,181,642
+Trainable params: 12,938
+Non-trainable params: 11,168,704
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 62.79
+Params size (MB): 42.65
+Estimated Total Size (MB): 106.01
+----------------------------------------------------------------
